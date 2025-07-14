@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Speed Korean - 4x Speed Learning Revolution</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Master Korean 4x faster with Harvard 16x speed learning method! Learn 1,800 practical Korean sentences for daily life efficiently.">
+    <meta name="keywords" content="Korean learning, 4x speed learning, speed learning, Korean for foreigners, Korean conversation, Korean study">
+    <meta name="author" content="Speed Korean">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Speed Korean - 4x Speed Learning Revolution">
+    <meta property="og:description" content="Master Korean 4x faster with Harvard 16x speed learning method! Learn 1,800 practical Korean sentences for daily life efficiently.">
+    <meta property="og:image" content="https://osam555.github.io/da-kor/og-image-en.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:url" content="https://osam555.github.io/da-kor/en.html">
+    <meta property="og:site_name" content="Speed Korean">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Speed Korean - 4x Speed Learning Revolution">
+    <meta name="twitter:description" content="Master Korean 4x faster with Harvard 16x speed learning method! Learn 1,800 practical Korean sentences for daily life efficiently.">
+    <meta name="twitter:image" content="https://osam555.github.io/da-kor/og-image-en.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Speed Korean",
+      "description": "Master Korean 4x faster with Harvard 16x speed learning method",
+      "url": "https://osam555.github.io/da-kor/en.html",
+      "author": {
+        "@type": "Organization",
+        "name": "Speed Korean"
+      },
+      "mainEntity": {
+        "@type": "Course",
+        "name": "4x Speed Korean Learning",
+        "description": "Learn 1,800 practical Korean sentences for daily life with 4x speed learning method",
+        "provider": {
+          "@type": "Organization",
+          "name": "Speed Korean"
+        },
+        "inLanguage": "en",
+        "courseMode": "online"
+      }
+    }
+    </script>
+    
+    <!-- Language Selector -->
+    <style>
+        .language-selector {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            z-index: 999;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            padding: 8px 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .language-selector a {
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 600;
+            font-size: 14px;
+            margin: 0 3px;
+            padding: 6px 12px;
+            border-radius: 15px;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .language-selector a:hover {
+            background: #667eea;
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        .language-selector .active {
+            background: #667eea;
+            color: white;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+        }
+        
+        .dark-mode .language-selector {
+            background: rgba(45, 55, 72, 0.9);
+        }
+        
+        .dark-mode .language-selector a {
+            color: #f8f9fa;
+        }
+        
+        .dark-mode .language-selector a:hover {
+            background: #4ecdc4;
+            color: white;
+        }
+        
+        .dark-mode .language-selector .active {
+            background: #4ecdc4;
+            color: white;
+        }
+    </style>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #2c3e50;
+            font-size: 18px;
+            letter-spacing: 0.3px;
+            font-weight: 400;
+        }
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 30px;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            padding: 3rem 0;
+            text-align: center;
+            border-bottom: #667eea 3px solid;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3.2rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-family: 'Inter', sans-serif;
+        }
+        header .subtitle {
+            font-size: 1.5rem;
+            margin-top: 15px;
+            font-weight: 300;
+            opacity: 0.95;
+        }
+        section {
+            background: #fff;
+            margin: 30px 0;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 3px solid #e9ecef;
+            padding-bottom: 15px;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+            font-family: 'Inter', sans-serif;
+        }
+        .highlight {
+            background-color: #e8f4f8;
+            padding: 25px;
+            border-left: 6px solid #4ecdc4;
+            margin: 25px 0;
+            border-radius: 6px;
+            font-size: 1.1rem;
+        }
+        .feature-box {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #4ecdc4;
+        }
+        .feature-box h3 {
+            margin-bottom: 15px;
+            color: #2c3e50;
+            font-size: 1.4rem;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+        }
+        .target-list, .learning-guide ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .target-list li, .learning-guide li {
+            background: #f8f9fa;
+            margin-bottom: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #4ecdc4;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+        .call-to-action {
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            color: #fff;
+            text-align: center;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(78, 205, 196, 0.3);
+        }
+        .call-to-action h3 {
+            margin: 0;
+            font-size: 2rem;
+            font-weight: 600;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+            font-family: 'Inter', sans-serif;
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            margin-top: 30px;
+            color: #6c757d;
+            font-size: 1.1rem;
+            background: #f8f9fa;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        /* 모바일 반응형 */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 0 20px;
+            }
+            
+            header h1 {
+                font-size: 2.5rem;
+            }
+            
+            header .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            section {
+                padding: 25px;
+                margin: 20px 0;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .feature-box h3 {
+                font-size: 1.2rem;
+            }
+            
+            .call-to-action h3 {
+                font-size: 1.6rem;
+            }
+            
+            .language-selector {
+                top: 10px;
+                right: 10px;
+            }
+        }
+        
+        /* 다크모드 스타일 */
+        .dark-mode {
+            background-color: #1a1a1a !important;
+            color: #f8f9fa !important;
+        }
+        
+        .dark-mode section {
+            background: #2d3748 !important;
+            border-color: #4a5568 !important;
+        }
+        
+        .dark-mode h1, .dark-mode h2, .dark-mode h3 {
+            color: #f8f9fa !important;
+        }
+        
+        .dark-mode h2 {
+            border-bottom-color: #4a5568 !important;
+        }
+        
+        .dark-mode .feature-box {
+            background: #374151 !important;
+            color: #f8f9fa !important;
+        }
+        
+        .dark-mode .feature-box h3 {
+            color: #4ecdc4 !important;
+        }
+        
+        .dark-mode .target-list li, .dark-mode .learning-guide li {
+            background: #374151 !important;
+        }
+        
+        .dark-mode footer {
+            background: #2d3748 !important;
+            border-top-color: #4a5568 !important;
+        }
+        
+        .dark-mode p, .dark-mode li, .dark-mode span, .dark-mode div {
+            color: #f8f9fa !important;
+        }
+        
+        .dark-mode .highlight {
+            background-color: #374151 !important;
+            color: #f8f9fa !important;
+        }
+        
+        .dark-mode .target-list li strong, .dark-mode .learning-guide li strong {
+            color: #4ecdc4 !important;
+        }
+        
+        .dark-mode .highlight-text {
+            background: #374151 !important;
+            color: #f8f9fa !important;
+            border-left-color: #4ecdc4 !important;
+        }
+        
+        /* 다크모드 토글 버튼 */
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: #4ecdc4;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .theme-toggle:hover {
+            background: #44a08d;
+            transform: scale(1.1);
+        }
+        
+        .dark-mode .theme-toggle {
+            background: #667eea;
+        }
+        
+        .dark-mode .theme-toggle:hover {
+            background: #764ba2;
+        }
+        
+        /* 텍스트 가시성 보장 */
+        p, li, span, div {
+            color: #2c3e50 !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+        
+        /* 텍스트 렌더링 최적화 */
+        body, h1, h2, h3, h4, h5, h6, p, li, span, div {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <a href="index.html">🇰🇷 한국어</a>
+        <a href="en.html" class="active">🇺🇸 English</a>
+        <a href="zh.html">🇨🇳 中文</a>
+        <a href="hi.html">🇮🇳 हिंदी</a>
+    </div>
+    
+    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+    <header>
+        <div class="container">
+            <h1>🚀 Speed Korean</h1>
+            <p class="subtitle">"Master Korean 4x faster with Harvard 16x speed learning method!"</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="intro">
+            <h2>Korean Learning Revolution: Speed Korean</h2>
+            <p style="font-size: 1.2rem; line-height: 1.9; margin-bottom: 20px;">Don't worry if you don't have time or find Korean difficult! Speed Korean applies the principles of Harvard's 16x speed learning method to provide the most efficient Korean learning method for busy modern people.</p>
+            <p class="highlight-text" style="font-size: 1.15rem; line-height: 1.8; color: #2c3e50; font-weight: 500; background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #4ecdc4;">Master 1,800 practical Korean sentences for daily life at 4x speed.</p>
+        </section>
+
+        <section id="why">
+            <h2>🎯 Why Choose 'Speed Korean'?</h2>
+            <div class="feature-box">
+                <h3>1. 4x Speed Listening: Korean that awakens your brain</h3>
+                <p>Absorb Korean at 4 times the normal speed and maximize your brain's language learning ability. Experience 2 hours of learning effect with just 30 minutes of daily investment. 1,800 Korean expressions that you can use immediately in daily life will be imprinted in your mind.</p>
+            </div>
+            <div class="feature-box">
+                <h3>2. Speed Shadowing: Korean flows from your mouth</h3>
+                <p>Maximize your speaking ability by following the natural speed and intonation of native speakers. Create an environment where you can immerse yourself completely in Korean without your brain having time to think about other things, and through repetitive training, you will experience words coming out before thoughts.</p>
+            </div>
+        </section>
+
+        <section id="science">
+            <h2>🧠 Science-proven learning effects of 'Speed Korean'</h2>
+            <p>Speed Korean is not just about listening fast. This high-speed learning method puts your brain in the most ideal state for language learning.</p>
+            <ul>
+                <li><strong>Improved concentration through frontal lobe activation:</strong> High-speed information processing drives your brain to its maximum, explosively increasing concentration and efficiency in Korean learning.</li>
+                <li><strong>Language center (Wernicke's area) stimulation:</strong> Intensively trains the brain area responsible for language comprehension, dramatically accelerating Korean acquisition speed.</li>
+                <li><strong>Strengthened synaptic connections:</strong> Repetitive high-speed stimulation connects neural networks more strongly, storing learned content as long-term memory rather than short-term memory.</li>
+            </ul>
+        </section>
+        
+        <section id="target">
+            <h2>👨‍🎓 Highly recommended for these people!</h2>
+            <ul class="target-list">
+                <li><strong>International students:</strong> Those who lack time but want to quickly improve their Korean skills</li>
+                <li><strong>Foreign workers:</strong> Those who want to develop Korean skills even in their busy daily lives</li>
+                <li><strong>Foreigners living in Korea:</strong> Those who need natural Korean communication in daily life</li>
+                <li><strong>Korean learners:</strong> Those who haven't seen results with existing learning methods</li>
+            </ul>
+        </section>
+
+        <section id="guide">
+            <h2>💡 'Speed Korean' Learning Guide</h2>
+            <p>By repeating these 4 steps every day, your Korean skills will improve dramatically.</p>
+            <ol class="learning-guide">
+                <li><strong>1x speed for meaning comprehension:</strong> Slowly understand sentence structure and word meanings.</li>
+                <li><strong>2x speed for rhythm familiarity:</strong> Get used to the natural rhythm and intonation of Korean at a slightly faster speed.</li>
+                <li><strong>4x speed for brain activation:</strong> Listen at maximum speed to activate your brain and focus completely on the Korean sounds you hear.</li>
+                <li><strong>Make it yours through shadowing:</strong> Follow immediately like a shadow as you hear it, completely embodying the expressions you've learned.</li>
+            </ol>
+        </section>
+
+        <section class="call-to-action">
+            <h3>🔥 Daily Goal: 30 minutes investment, master 60 sentences!</h3>
+        </section>
+
+        <section id="results">
+            <h2>🏆 Amazing changes coming to you</h2>
+            <div class="highlight">
+                <ul>
+                    <li><strong>75% reduction in study time:</strong> Finish 4 hours of study in just 1 hour.</li>
+                    <li><strong>300% improvement in concentration:</strong> Learning efficiency rises vertically in a state of high immersion.</li>
+                    <li><strong>Automatic 'Korean brain' formation:</strong> A brain circuit is created that allows you to think and speak Korean as comfortably as your native language.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contents">
+            <h2>🎬 Daily Life & Korean Culture Specialized Content</h2>
+            <p>Speed Korean is perfectly specialized for daily life and Korean culture. From daily conversation to Korean culture and cultural expressions. Meet living Korean expressions that are actually used the most in 60 systematic chapters.</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>Don't study the hard way anymore. Learn the smartest way with 'Speed Korean'.</p>
+            <p>30 minutes a day, upgrade your Korean skills and brain simultaneously! 🧠✨</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            const button = document.querySelector('.theme-toggle');
+            
+            if (body.classList.contains('dark-mode')) {
+                body.classList.remove('dark-mode');
+                button.textContent = '🌙';
+                localStorage.setItem('theme', 'light');
+            } else {
+                body.classList.add('dark-mode');
+                button.textContent = '☀️';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+        
+        // 페이지 로드 시 저장된 테마 적용
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme');
+            const button = document.querySelector('.theme-toggle');
+            
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+                button.textContent = '☀️';
+            } else {
+                button.textContent = '🌙';
+            }
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>韩语速成 - 4倍速学习革命</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="采用哈佛16倍速学习法，4倍速掌握韩语！高效学习1,800句日常实用韩语。">
+    <meta name="keywords" content="韩语学习, 4倍速学习, 速成韩语, 外国人韩语, 韩语会话, 韩语学习">
+    <meta name="author" content="韩语速成">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="韩语速成 - 4倍速学习革命">
+    <meta property="og:description" content="采用哈佛16倍速学习法，4倍速掌握韩语！高效学习1,800句日常实用韩语。">
+    <meta property="og:image" content="https://osam555.github.io/da-kor/og-image-zh.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:url" content="https://osam555.github.io/da-kor/zh.html">
+    <meta property="og:site_name" content="韩语速成">
+    <meta property="og:locale" content="zh_CN">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="韩语速成 - 4倍速学习革命">
+    <meta name="twitter:description" content="采用哈佛16倍速学习法，4倍速掌握韩语！高效学习1,800句日常实用韩语。">
+    <meta name="twitter:image" content="https://osam555.github.io/da-kor/og-image-zh.png">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "韩语速成",
+      "description": "采用哈佛16倍速学习法，4倍速掌握韩语",
+      "url": "https://osam555.github.io/da-kor/zh.html",
+      "author": {
+        "@type": "Organization",
+        "name": "韩语速成"
+      },
+      "mainEntity": {
+        "@type": "Course",
+        "name": "4倍速韩语学习",
+        "description": "通过4倍速学习法掌握1,800句日常实用韩语",
+        "provider": {
+          "@type": "Organization",
+          "name": "韩语速成"
+        },
+        "inLanguage": "zh-CN",
+        "courseMode": "online"
+      }
+    }
+    </script>
+    
+    <!-- Language Selector -->
+    <style>
+        .language-selector {
+            position: fixed;
+            top: 70px;
+            right: 20px;
+            z-index: 999;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            padding: 8px 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .language-selector a {
+            text-decoration: none;
+            color: #667eea;
+            font-weight: 600;
+            font-size: 14px;
+            margin: 0 3px;
+            padding: 6px 12px;
+            border-radius: 15px;
+            transition: all 0.2s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 4px;
+        }
+        
+        .language-selector a:hover {
+            background: #667eea;
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        .language-selector .active {
+            background: #667eea;
+            color: white;
+            box-shadow: 0 2px 8px rgba(102, 126, 234, 0.3);
+        }
+        
+        .dark-mode .language-selector {
+            background: rgba(45, 55, 72, 0.9);
+        }
+        
+        .dark-mode .language-selector a {
+            color: #f8f9fa;
+        }
+        
+        .dark-mode .language-selector a:hover {
+            background: #4ecdc4;
+            color: white;
+        }
+        
+        .dark-mode .language-selector .active {
+            background: #4ecdc4;
+            color: white;
+        }
+    </style>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #2c3e50;
+            font-size: 18px;
+            letter-spacing: 0.3px;
+            font-weight: 400;
+        }
+        .container {
+            width: 85%;
+            max-width: 1000px;
+            margin: auto;
+            overflow: hidden;
+            padding: 0 30px;
+        }
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            padding: 3rem 0;
+            text-align: center;
+            border-bottom: #667eea 3px solid;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 3.2rem;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+        header .subtitle {
+            font-size: 1.5rem;
+            margin-top: 15px;
+            font-weight: 300;
+            opacity: 0.95;
+        }
+        section {
+            background: #fff;
+            margin: 30px 0;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        h2 {
+            color: #2c3e50;
+            border-bottom: 3px solid #e9ecef;
+            padding-bottom: 15px;
+            font-size: 1.8rem;
+            font-weight: 600;
+            margin-bottom: 25px;
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+        .highlight {
+            background-color: #e8f4f8;
+            padding: 25px;
+            border-left: 6px solid #4ecdc4;
+            margin: 25px 0;
+            border-radius: 6px;
+            font-size: 1.1rem;
+        }
+        .feature-box {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #4ecdc4;
+        }
+        .feature-box h3 {
+            margin-bottom: 15px;
+            color: #2c3e50;
+            font-size: 1.4rem;
+            font-weight: 600;
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+        .target-list, .learning-guide ul {
+            list-style: none;
+            padding: 0;
+            margin: 20px 0;
+        }
+        .target-list li, .learning-guide li {
+            background: #f8f9fa;
+            margin-bottom: 15px;
+            padding: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #4ecdc4;
+            font-size: 1.1rem;
+            line-height: 1.7;
+        }
+        .call-to-action {
+            background: linear-gradient(135deg, #4ecdc4 0%, #44a08d 100%);
+            color: #fff;
+            text-align: center;
+            padding: 35px;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(78, 205, 196, 0.3);
+        }
+        .call-to-action h3 {
+            margin: 0;
+            font-size: 2rem;
+            font-weight: 600;
+            text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
+            font-family: 'Noto Sans SC', sans-serif;
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            margin-top: 30px;
+            color: #6c757d;
+            font-size: 1.1rem;
+            background: #f8f9fa;
+            border-top: 1px solid #e9ecef;
+        }
+        
+        /* 移动端响应式 */
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+                padding: 0 20px;
+            }
+            
+            header h1 {
+                font-size: 2.5rem;
+            }
+            
+            header .subtitle {
+                font-size: 1.2rem;
+            }
+            
+            section {
+                padding: 25px;
+                margin: 20px 0;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .feature-box h3 {
+                font-size: 1.2rem;
+            }
+            
+            .call-to-action h3 {
+                font-size: 1.6rem;
+            }
+            
+            .language-selector {
+                top: 10px;
+                right: 10px;
+            }
+        }
+        
+        /* 深色模式样式 */
+        .dark-mode {
+            background-color: #1a1a1a !important;
+            color: #f8f9fa !important;
+        }
+        
+        .dark-mode section {
+            background: #2d3748 !important;
+            border-color: #4a5568 !important;
+        }
+        
+        .dark-mode h1, .dark-mode h2, .dark-mode h3 {
+            color: #f8f9fa !important;
+        }
+        
+        .dark-mode h2 {
+            border-bottom-color: #4a5568 !important;
+        }
+        
+        .dark-mode .feature-box {
+            background: #374151 !important;
+            color: #f8f9fa !important;
+        }
+        
+        .dark-mode .feature-box h3 {
+            color: #4ecdc4 !important;
+        }
+        
+        .dark-mode .target-list li, .dark-mode .learning-guide li {
+            background: #374151 !important;
+        }
+        
+        .dark-mode footer {
+            background: #2d3748 !important;
+            border-top-color: #4a5568 !important;
+        }
+        
+        .dark-mode p, .dark-mode li, .dark-mode span, .dark-mode div {
+            color: #f8f9fa !important;
+        }
+        
+        .dark-mode .highlight {
+            background-color: #374151 !important;
+            color: #f8f9fa !important;
+        }
+        
+        .dark-mode .target-list li strong, .dark-mode .learning-guide li strong {
+            color: #4ecdc4 !important;
+        }
+        
+        .dark-mode .highlight-text {
+            background: #374151 !important;
+            color: #f8f9fa !important;
+            border-left-color: #4ecdc4 !important;
+        }
+        
+        /* 深色模式切换按钮 */
+        .theme-toggle {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 1000;
+            background: #4ecdc4;
+            color: white;
+            border: none;
+            border-radius: 50%;
+            width: 60px;
+            height: 60px;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .theme-toggle:hover {
+            background: #44a08d;
+            transform: scale(1.1);
+        }
+        
+        .dark-mode .theme-toggle {
+            background: #667eea;
+        }
+        
+        .dark-mode .theme-toggle:hover {
+            background: #764ba2;
+        }
+        
+        /* 文字可见性保证 */
+        p, li, span, div {
+            color: #2c3e50 !important;
+            opacity: 1 !important;
+            visibility: visible !important;
+        }
+        
+        /* 文字渲染优化 */
+        body, h1, h2, h3, h4, h5, h6, p, li, span, div {
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            text-rendering: optimizeLegibility;
+        }
+    </style>
+</head>
+<body>
+    <div class="language-selector">
+        <a href="index.html">🇰🇷 한국어</a>
+        <a href="en.html">🇺🇸 English</a>
+        <a href="zh.html" class="active">🇨🇳 中文</a>
+        <a href="hi.html">🇮🇳 हिंदी</a>
+    </div>
+    
+    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+    <header>
+        <div class="container">
+            <h1>🚀 韩语速成</h1>
+            <p class="subtitle">"采用哈佛16倍速学习法，4倍速掌握韩语！"</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section id="intro">
+            <h2>韩语学习革命：韩语速成</h2>
+            <p style="font-size: 1.2rem; line-height: 1.9; margin-bottom: 20px;">没有时间或觉得韩语难学都没关系！韩语速成运用哈佛16倍速学习法的原理，为忙碌的现代人提供最高效的韩语学习方法。</p>
+            <p class="highlight-text" style="font-size: 1.15rem; line-height: 1.8; color: #2c3e50; font-weight: 500; background: #f8f9fa; padding: 15px; border-radius: 8px; border-left: 4px solid #4ecdc4;">4倍速掌握1,800句日常实用韩语。</p>
+        </section>
+
+        <section id="why">
+            <h2>🎯 为什么选择"韩语速成"？</h2>
+            <div class="feature-box">
+                <h3>1. 4倍速听力：唤醒你的韩语大脑</h3>
+                <p>以4倍于正常速度吸收韩语，将大脑的语言学习能力发挥到极致。每天只需投入30分钟，就能获得2小时的学习效果。1,800个日常生活中即用即学的韩语表达将深深印在你的脑海中。</p>
+            </div>
+            <div class="feature-box">
+                <h3>2. 速度跟读：韩语脱口而出</h3>
+                <p>跟随母语者的自然语速和语调，最大化提升口语能力。让大脑没有时间思考其他事情，完全沉浸在韩语环境中，通过反复训练，体验话语先于思考的感觉。</p>
+            </div>
+        </section>
+
+        <section id="science">
+            <h2>🧠 科学证明的"韩语速成"学习效果</h2>
+            <p>韩语速成不仅仅是快速听韩语。这种高速学习法让你的大脑进入语言学习的最佳状态。</p>
+            <ul>
+                <li><strong>激活前额叶提升专注力：</strong> 高速信息处理让大脑全速运转，爆发性地提高韩语学习的专注力和效率。</li>
+                <li><strong>刺激语言中枢（韦尼克区）：</strong> 集中训练负责语言理解的大脑区域，显著加速韩语习得速度。</li>
+                <li><strong>强化神经突触连接：</strong> 反复的高速刺激让大脑神经网络连接更加牢固，将学习内容存储为长期记忆而非短期记忆。</li>
+            </ul>
+        </section>
+        
+        <section id="target">
+            <h2>👨‍🎓 强力推荐给这些人！</h2>
+            <ul class="target-list">
+                <li><strong>外国留学生：</strong> 时间紧张但想快速提高韩语水平的人</li>
+                <li><strong>外国工作者：</strong> 即使在忙碌的日常生活中也想提高韩语技能的人</li>
+                <li><strong>在韩外国人：</strong> 需要在日常生活中自然韩语交流的人</li>
+                <li><strong>韩语学习者：</strong> 用现有学习方法没有效果的人</li>
+            </ul>
+        </section>
+
+        <section id="guide">
+            <h2>💡 "韩语速成"学习指南</h2>
+            <p>每天重复这4个步骤，你的韩语水平将发生惊人的变化。</p>
+            <ol class="learning-guide">
+                <li><strong>1倍速理解含义：</strong> 慢慢理解句子结构和词汇含义。</li>
+                <li><strong>2倍速熟悉节奏：</strong> 以稍快的速度熟悉韩语的自然节奏和语调。</li>
+                <li><strong>4倍速激活大脑：</strong> 以最快速度听韩语，激活大脑，完全专注于听到的韩语声音。</li>
+                <li><strong>跟读练习完全掌握：</strong> 听到后立即像影子一样跟读，将学到的表达完全内化为自己的。</li>
+            </ol>
+        </section>
+
+        <section class="call-to-action">
+            <h3>🔥 每日目标：投入30分钟，掌握60句话！</h3>
+        </section>
+
+        <section id="results">
+            <h2>🏆 你将迎来的惊人变化</h2>
+            <div class="highlight">
+                <ul>
+                    <li><strong>学习时间缩短75%：</strong> 原本需要4小时的学习，仅用1小时就能完成。</li>
+                    <li><strong>专注力提升300%：</strong> 在高度沉浸状态下，学习效率垂直上升。</li>
+                    <li><strong>自动形成"韩语大脑"：</strong> 形成像母语一样舒适思考和说韩语的大脑回路。</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="contents">
+            <h2>🎬 日常生活 & 韩国文化专门内容</h2>
+            <p>韩语速成完全专门化于日常生活和韩国文化韩语。从日常会话到韩国文化和文化表达。通过60个系统化章节，接触实际使用最多的鲜活韩语表达。</p>
+        </section>
+
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>不要再用困难的方式学习了。用"韩语速成"最聪明地学习吧。</p>
+            <p>每天30分钟，同时提升你的韩语技能和大脑！🧠✨</p>
+        </div>
+    </footer>
+
+    <script>
+        function toggleTheme() {
+            const body = document.body;
+            const button = document.querySelector('.theme-toggle');
+            
+            if (body.classList.contains('dark-mode')) {
+                body.classList.remove('dark-mode');
+                button.textContent = '🌙';
+                localStorage.setItem('theme', 'light');
+            } else {
+                body.classList.add('dark-mode');
+                button.textContent = '☀️';
+                localStorage.setItem('theme', 'dark');
+            }
+        }
+        
+        // 页面加载时应用保存的主题
+        document.addEventListener('DOMContentLoaded', function() {
+            const savedTheme = localStorage.getItem('theme');
+            const button = document.querySelector('.theme-toggle');
+            
+            if (savedTheme === 'dark') {
+                document.body.classList.add('dark-mode');
+                button.textContent = '☀️';
+            } else {
+                button.textContent = '🌙';
+            }
+        });
+    </script>
+
+</body>
+</html>
