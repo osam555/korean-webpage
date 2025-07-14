@@ -231,6 +231,7 @@
                 min-width: 100px;
                 opacity: 0;
                 visibility: hidden;
+                display: none;
             }
             
             .language-menu a {
@@ -371,9 +372,11 @@
             transform: translateY(-10px);
             transition: all 0.2s ease;
             margin-top: 4px;
+            display: none;
         }
         
         .language-menu.show {
+            display: block;
             opacity: 1;
             visibility: visible;
             transform: translateY(0);
