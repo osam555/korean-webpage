@@ -95,14 +95,12 @@
             font-weight: 700;
             text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
             font-family: 'Noto Sans KR', sans-serif;
-            color: #ffffff;
         }
         header .subtitle {
             font-size: 1.5rem;
             margin-top: 15px;
             font-weight: 300;
             opacity: 0.95;
-            color: #ffffff !important;
         }
         section {
             background: #fff;
@@ -181,84 +179,6 @@
             background: #f8f9fa;
             border-top: 1px solid #e9ecef;
         }
-        
-        /* K-Beauty Section Styles */
-        #k-beauty {
-            margin-top: 80px;
-            padding: 60px 0;
-            background: linear-gradient(to bottom, rgba(255,255,255,0), rgba(102, 126, 234, 0.05));
-            border-radius: 20px;
-        }
-        
-        .lead-text {
-            font-size: 1.3rem;
-            color: #667eea;
-            font-weight: 600;
-            margin-bottom: 40px;
-            text-align: center;
-        }
-        
-        .highlight-box {
-            background: #f8f9fa;
-            padding: 30px;
-            border-radius: 15px;
-            margin-bottom: 40px;
-            border-left: 5px solid #667eea;
-        }
-        
-        .highlight-box p {
-            font-size: 1.2rem;
-            margin-bottom: 20px;
-        }
-        
-        .feature-list {
-            list-style: none;
-            padding: 0;
-        }
-        
-        .feature-list li {
-            padding: 10px 0;
-            font-size: 1.1rem;
-            color: #555;
-            position: relative;
-            padding-left: 25px;
-        }
-        
-        .feature-list li:before {
-            content: "😔";
-            position: absolute;
-            left: 0;
-        }
-        
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 30px;
-            margin: 40px 0;
-        }
-        
-        .special-features {
-            background: white;
-            padding: 40px;
-            border-radius: 20px;
-            box-shadow: 0 5px 30px rgba(0,0,0,0.08);
-            margin: 40px 0;
-        }
-        
-        .special-features h3 {
-            color: #667eea;
-            margin-bottom: 30px;
-            text-align: center;
-        }
-        
-        .cta-text {
-            font-size: 1.2rem;
-            text-align: center;
-            line-height: 1.8;
-            color: #2c3e50;
-            font-weight: 500;
-            margin-top: 40px;
-        }
         sup {
             font-size: 0.8em;
             vertical-align: super;
@@ -318,42 +238,6 @@
                 padding: 6px 10px;
                 font-size: 11px;
             }
-            
-            /* K-Beauty section mobile styles */
-            #k-beauty {
-                padding: 40px 0;
-                margin-top: 40px;
-            }
-            
-            .lead-text {
-                font-size: 1.1rem;
-                margin-bottom: 30px;
-            }
-            
-            .highlight-box {
-                padding: 20px;
-            }
-            
-            .highlight-box p {
-                font-size: 1rem;
-            }
-            
-            .feature-list li {
-                font-size: 1rem;
-                padding: 8px 0;
-            }
-            
-            .feature-grid {
-                gap: 20px;
-            }
-            
-            .special-features {
-                padding: 25px;
-            }
-            
-            .cta-text {
-                font-size: 1.1rem;
-            }
         }
         
         /* 다크모드 스타일 */
@@ -371,10 +255,6 @@
             color: #e9ecef !important;
         }
         
-        .dark-mode header h1 {
-            color: #ffffff !important;
-        }
-        
         .dark-mode h2 {
             border-bottom-color: #4a5568 !important;
         }
@@ -390,30 +270,6 @@
         .dark-mode footer {
             background: #2d3748 !important;
             border-top-color: #4a5568 !important;
-        }
-        
-        /* Dark mode styles for K-Beauty section */
-        .dark-mode #k-beauty {
-            background: linear-gradient(to bottom, rgba(0,0,0,0), rgba(102, 126, 234, 0.1));
-        }
-        
-        .dark-mode .highlight-box {
-            background: #374151 !important;
-            color: #f8f9fa !important;
-            border-left-color: #4ecdc4 !important;
-        }
-        
-        .dark-mode .feature-list li {
-            color: #e5e7eb !important;
-        }
-        
-        .dark-mode .special-features {
-            background: #374151 !important;
-            box-shadow: 0 5px 30px rgba(0,0,0,0.3) !important;
-        }
-        
-        .dark-mode .cta-text {
-            color: #f8f9fa !important;
         }
         
         .dark-mode p, .dark-mode li, .dark-mode span, .dark-mode div {
@@ -619,94 +475,6 @@
             -moz-osx-font-smoothing: grayscale;
             text-rendering: optimizeLegibility;
         }
-        
-        /* 서브메뉴 스타일 */
-        .submenu {
-            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-            padding: 0;
-            margin: 0;
-            position: sticky;
-            top: 0;
-            z-index: 999;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-        }
-        
-        .submenu-container {
-            max-width: 1200px;
-            margin: 0 auto;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 0 20px;
-        }
-        
-        .submenu-item {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 15px 30px;
-            color: white;
-            text-decoration: none;
-            font-size: 1.1rem;
-            font-weight: 600;
-            transition: all 0.3s ease;
-            position: relative;
-            flex: 1;
-            text-align: center;
-        }
-        
-        .submenu-item:nth-child(2) {
-            color: #ffffff !important;
-        }
-        
-        .submenu-item:hover {
-            background: rgba(255,255,255,0.15);
-            transform: translateY(-2px);
-        }
-        
-        .submenu-item.active {
-            background: rgba(255,255,255,0.2);
-        }
-        
-        .submenu-item.active:nth-child(2) {
-            background: rgba(255,255,255,0.2);
-            color: #ffffff !important;
-        }
-        
-        .submenu-item span {
-            margin-left: 8px;
-            color: inherit !important;
-        }
-        
-        /* 다크모드 서브메뉴 */
-        .dark-mode .submenu {
-            background: linear-gradient(135deg, #2d3748 0%, #1a202c 100%);
-            box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-        }
-        
-        .dark-mode .submenu-item {
-            color: #f8f9fa;
-        }
-        
-        .dark-mode .submenu-item:hover {
-            background: rgba(78, 205, 196, 0.2);
-        }
-        
-        /* 모바일 서브메뉴 */
-        @media (max-width: 768px) {
-            .submenu-container {
-                padding: 0 10px;
-            }
-            
-            .submenu-item {
-                padding: 12px 15px;
-                font-size: 0.9rem;
-            }
-            
-            .submenu-item span {
-                display: none;
-            }
-        }
     </style>
 </head>
 <body>
@@ -732,17 +500,6 @@
             <p class="subtitle">"하버드 16배속 공부법으로 완성하는 4배속 스피드 러닝!"</p>
         </div>
     </header>
-
-    <nav class="submenu">
-        <div class="submenu-container">
-            <a href="#intro" class="submenu-item active">
-                🇰🇷<span>대충 한국어</span>
-            </a>
-            <a href="#k-beauty" class="submenu-item">
-                🇺🇸<span>대충영어</span>
-            </a>
-        </div>
-    </nav>
 
     <div class="container">
         <section id="intro">
@@ -814,68 +571,6 @@
             <p>대충한국어는 일상생활과 한국문화 한국어에 완벽하게 특화되었습니다. 일상 회화부터 한국문화와 문화적 표현까지. 실제로 가장 많이 사용되는 살아있는 한국어 표현을 60개의 체계적인 챕터로 만나보세요.</p>
         </section>
 
-        <section id="k-beauty">
-            <h2>✨ 대충영어</h2>
-            <p class="lead-text">당신의 영향력을 세계로 확장할 시간입니다!</p>
-            
-            <div class="highlight-box">
-                <p><strong>🤔 이런 고민 있으신가요?</strong></p>
-                <ul class="feature-list">
-                    <li>"이 제품 정말 좋은데… 영어로 어떻게 설명해야 매력적일까?"</li>
-                    <li>"내 스타일링, 해외 팬들에게도 보여주고 싶은데 언어의 장벽이…"</li>
-                    <li>"라이브 방송에서 외국인 댓글에 센스 있게 답하고 싶은데…"</li>
-                </ul>
-            </div>
-
-            <div class="feature-grid">
-                <div class="feature-box">
-                    <h3>💄 K-Beauty 전문가로 레벨업!</h3>
-                    <p><strong>900개+ 실전 문장</strong></p>
-                    <ul>
-                        <li>스킨케어 루틴 전문 설명</li>
-                        <li>메이크업 튜토리얼 표현</li>
-                        <li>성분 분석 & 제품 리뷰</li>
-                        <li>"수분광(dewy glow)", "쫀쫀한 텍스처(rich texture)" 등 전문 용어</li>
-                    </ul>
-                </div>
-                
-                <div class="feature-box">
-                    <h3>👗 K-Fashion 트렌드 리더되기</h3>
-                    <p><strong>900개+ 실전 문장</strong></p>
-                    <ul>
-                        <li>아이템 묘사 & 스타일링 팁</li>
-                        <li>브랜드 스토리텔링</li>
-                        <li>트렌드 분석 표현</li>
-                        <li>"꾸안꾸 룩(effortlessly chic)", "오버사이즈 핏(oversized fit)" 등</li>
-                    </ul>
-                </div>
-                
-                <div class="feature-box">
-                    <h3>🌟 글로벌 인플루언서 키트</h3>
-                    <p><strong>실전 활용 가능!</strong></p>
-                    <ul>
-                        <li>📺 라이브 방송 실전 스크립트</li>
-                        <li>📝 제품 리뷰 & 협찬 템플릿</li>
-                        <li>💬 매력적인 SNS 캡션</li>
-                        <li>💌 해외 팔로워 소통 표현</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="special-features">
-                <h3>🚀 당신만을 위한 특별 기능</h3>
-                <ul class="target-list">
-                    <li>✅ <strong>AI 음성인식</strong>으로 원어민 같은 발음 교정</li>
-                    <li>✅ <strong>0.5배속~6배속</strong> 속청 훈련으로 리스닝 능력 UP</li>
-                    <li>✅ 중요한 표현은 <strong>'북마크'</strong>로 저장해 나만의 영어 치트키 생성</li>
-                    <li>✅ 늦은 밤 콘텐츠 작업 후에도 눈이 편안한 <strong>'다크 모드'</strong> 지원</li>
-                </ul>
-            </div>
-
-            <p class="cta-text">🌏 이제 언어의 장벽 때문에 당신의 재능과 열정을 국내에만 가두지 마세요.<br>
-            전 세계 팬들이 당신의 다음 콘텐츠를 기다리고 있습니다!</p>
-        </section>
-
     </div>
 
     <footer>
@@ -937,53 +632,6 @@
             } else {
                 button.textContent = '🌙';
             }
-            
-            // 서브메뉴 스크롤 이벤트
-            const submenuItems = document.querySelectorAll('.submenu-item');
-            const sections = document.querySelectorAll('section[id]');
-            
-            // 서브메뉴 클릭 이벤트
-            submenuItems.forEach(item => {
-                item.addEventListener('click', function(e) {
-                    e.preventDefault();
-                    const targetId = this.getAttribute('href').substring(1);
-                    const targetSection = document.getElementById(targetId);
-                    
-                    if (targetSection) {
-                        const submenuHeight = document.querySelector('.submenu').offsetHeight;
-                        const targetPosition = targetSection.offsetTop - submenuHeight - 20;
-                        
-                        window.scrollTo({
-                            top: targetPosition,
-                            behavior: 'smooth'
-                        });
-                        
-                        // 활성 상태 업데이트
-                        submenuItems.forEach(i => i.classList.remove('active'));
-                        this.classList.add('active');
-                    }
-                });
-            });
-            
-            // 스크롤 시 활성 메뉴 업데이트
-            window.addEventListener('scroll', function() {
-                const scrollPosition = window.scrollY + 100;
-                
-                sections.forEach(section => {
-                    const sectionTop = section.offsetTop;
-                    const sectionHeight = section.offsetHeight;
-                    const sectionId = section.getAttribute('id');
-                    
-                    if (scrollPosition >= sectionTop && scrollPosition < sectionTop + sectionHeight) {
-                        submenuItems.forEach(item => {
-                            item.classList.remove('active');
-                            if (item.getAttribute('href') === `#${sectionId}`) {
-                                item.classList.add('active');
-                            }
-                        });
-                    }
-                });
-            });
         });
     </script>
 
